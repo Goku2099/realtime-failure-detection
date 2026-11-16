@@ -7,7 +7,6 @@ failure_score = Gauge(
     "Failure score",
     ["server_id"]
 )
-
 server_status = Gauge(
     "server_failure_status",
     "1 = failure likely, 0 = healthy",
