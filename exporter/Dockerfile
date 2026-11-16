@@ -9,3 +9,4 @@ RUN pip install -r requirements.txt
 COPY exporter.py .
 
 CMD ["python", "exporter.py"]
+
